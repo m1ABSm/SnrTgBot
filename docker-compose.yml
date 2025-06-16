@@ -1,0 +1,10 @@
+version: "3"
+services:
+  telegram_bot_secretary:
+    build: .
+    container_name: secretary_bot
+    restart: always
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=Europe/Moscow

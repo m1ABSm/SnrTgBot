@@ -1,0 +1,7 @@
+python-telegram-bot==20.7
+pytesseract
+pdf2image
+Pillow
+pandas
+openpyxl
+sqlite3
